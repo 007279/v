@@ -1,0 +1,11 @@
+<section class="contact" id="contact">
+    <div class="container">
+        <h2>下单咨询</h2>
+        <form class="contact-form">
+            <input type="text" placeholder="姓名" required>
+            <input type="tel" placeholder="联系电话" required>
+            <textarea placeholder="您的需求或问题" required></textarea>
+            <button type="submit" class="btn">提交</button>
+        </form>
+    </div>
+</section>

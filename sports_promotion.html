@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>体育用品商城</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+    <!-- 导航栏 -->
+    <nav class="navbar">
+        <div class="container">
+            <h1>体育用品商城</h1>
+            <ul>
+                <li><a href="#products">热销产品</a></li>
+                <li><a href="#contact">下单咨询</a></li>
+                <li><a href="about.html">关于我们</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- 展示区 -->
+    <section class="showcase" id="showcase">
+        <div class="container">
+            <div>
+                <h1>精选运动装备，助力健康生活！</h1>
+                <p>为您和孩子挑选最合适的体育用品，享受运动乐趣，开启健康人生。</p>
+                <a href="#products" class="btn">立即选购</a>
+            </div>
+            <img src="images/运动.jpg" alt="运动图片" class="showcase-img">
+        </div>
+    </section>
+
+    <!-- 专栏跳转按钮 -->
+    <section class="columns" style="text-align:center; margin: 32px 0;">
+        <a href="track.html" class="btn" style="margin: 8px 16px;">田径专栏</a>
+        <a href="basketball.html" class="btn" style="margin: 8px 16px;">篮球专栏</a>
+        <a href="swimming.html" class="btn" style="margin: 8px 16px;">游泳专栏</a>
+    </section>
+
+    <!-- 热销产品 -->
+    <section class="features" id="products">
+        <div class="container">
+            <div class="product-card" onclick="window.location.href='product_shoes.html'" style="cursor:pointer;">
+                <img src="images/专业跑鞋.jpg" alt="专业跑鞋">
+                <h3>专业跑鞋</h3>
+                <p>轻盈透气，助你突破极限。</p>
+                <div class="price">￥299</div>
+                <button class="btn"><i class="fas fa-cart-plus"></i> 加入购物车</button>
+            </div>
+            <div class="product-card" onclick="window.location.href='product_basketball.html'" style="cursor:pointer;">
+                <img src="images/高弹篮球.jpg" alt="高弹篮球">
+                <h3>高弹篮球</h3>
+                <p>手感舒适，比赛训练皆宜。</p>
+                <div class="price">￥159</div>
+                <button class="btn"><i class="fas fa-cart-plus"></i> 加入购物车</button>
+            </div>
+            <div class="product-card" onclick="window.location.href='product_goggles.html'" style="cursor:pointer;">
+                <img src="images/泳镜.jpg" alt="专业泳镜">
+                <h3>专业泳镜</h3>
+                <p>高清防雾，畅游无忧。</p>
+                <div class="price">￥89</div>
+                <button class="btn"><i class="fas fa-cart-plus"></i> 加入购物车</button>
+            </div>
+            <div class="product-card" onclick="window.location.href='product_kneepad.html'" style="cursor:pointer;">
+                <img src="images/儿童护膝.jpg" alt="儿童护膝">
+                <h3>儿童护膝</h3>
+                <p>柔软舒适，运动防护必备。</p>
+                <div class="price">￥39</div>
+                <button class="btn"><i class="fas fa-cart-plus"></i> 加入购物车</button>
+            </div>
+            <div class="product-card" onclick="window.location.href='product_rope.html'" style="cursor:pointer;">
+                <img src="images/跳绳.jpg" alt="跳绳">
+                <h3>跳绳</h3>
+                <p>轻盈耐用，锻炼心肺好帮手。</p>
+                <div class="price">￥19</div>
+                <button class="btn"><i class="fas fa-cart-plus"></i> 加入购物车</button>
+            </div>
+            <div class="product-card" onclick="window.location.href='product_limited_shoes.html'" style="cursor:pointer;">
+                <img src="images/限量球鞋.jpg" alt="限量球鞋">
+                <h3>限量球鞋</h3>
+                <p>限时特惠，售完即止！</p>
+                <div class="price">￥299</div>
+                <button class="btn"><i class="fas fa-cart-plus"></i> 加入购物车</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- 限时促销 -->
+    <section class="promotion">
+        <div class="container">
+            <h2>限时促销</h2>
+            <div class="product-card">
+                <img src="images/限量球鞋.jpg" alt="限量球鞋">
+                <h3>限量球鞋</h3>
+                <p>限时特价，售完即止！</p>
+                <div class="price"><del>￥399</del> ￥299</div>
+                <button class="btn"><i class="fas fa-cart-plus"></i> 加入购物车</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- 下单咨询 -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2>下单咨询</h2>
+            <form class="contact-form">
+                <input type="text" placeholder="姓名" required>
+                <input type="tel" placeholder="联系电话" required>
+                <textarea placeholder="您的需求或问题" required></textarea>
+                <button type="submit" class="btn">提交</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- 用户评价 -->
+    <section class="reviews">
+        <div class="container">
+            <h2>用户评价</h2>
+            <div class="review-card">
+                <p>“跑鞋很轻便，孩子很喜欢！”</p>
+                <span>—— 王女士</span>
+            </div>
+            <div class="review-card">
+                <p>“客服很耐心，发货也快。”</p>
+                <span>—— 李先生</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- 页脚 -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 体育用品商城 - 版权所有</p>
+        </div>
+    </footer>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
